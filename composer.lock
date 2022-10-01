@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcc2265858f3690446be9680365e5ec6",
+    "content-hash": "dcd2673e3ec66a4c9193ac4a1365abaf",
     "packages": [],
     "packages-dev": [
         {
@@ -1123,6 +1123,91 @@
             "time": "2022-09-16T03:22:46+00:00"
         },
         {
+            "name": "sof3/await-generator",
+            "version": "3.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SOF3/await-generator.git",
+                "reference": "05f14d8d5122edb2e0e4058770f7f36756062b9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SOF3/await-generator/zipball/05f14d8d5122edb2e0e4058770f7f36756062b9c",
+                "reference": "05f14d8d5122edb2e0e4058770f7f36756062b9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "composer/package-versions-deprecated": "1.11.99.1",
+                "infection/infection": "^0.18.2 || ^0.20.2 || ^0.26.0",
+                "phpstan/phpstan": "^0.12.84",
+                "phpunit/phpunit": "^9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SOFe\\AwaitGenerator\\": "await-generator/src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "SOFe",
+                    "email": "sofe2038@gmail.com"
+                }
+            ],
+            "description": "Use async/await in PHP using generators",
+            "support": {
+                "issues": "https://github.com/SOF3/await-generator/issues",
+                "source": "https://github.com/SOF3/await-generator/tree/3.4.2"
+            },
+            "time": "2022-06-12T03:06:57+00:00"
+        },
+        {
+            "name": "sof3/await-std",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SOF3/await-std.git",
+                "reference": "6abd0dc7c509545eafefd38c30729467c4a647e0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SOF3/await-std/zipball/6abd0dc7c509545eafefd38c30729467c4a647e0",
+                "reference": "6abd0dc7c509545eafefd38c30729467c4a647e0",
+                "shasum": ""
+            },
+            "require": {
+                "pocketmine/pocketmine-mp": "^4.0.0",
+                "sof3/await-generator": "^3.3.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.84"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SOFe\\AwaitStd\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Writing user-friendly PocketMine plugins fluently with await-generator style",
+            "support": {
+                "issues": "https://github.com/SOF3/await-std/issues",
+                "source": "https://github.com/SOF3/await-std/tree/master"
+            },
+            "time": "2022-05-27T05:10:08+00:00"
+        },
+        {
             "name": "symfony/polyfill-php81",
             "version": "v1.26.0",
             "source": {
@@ -1313,7 +1398,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sof3/await-std": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

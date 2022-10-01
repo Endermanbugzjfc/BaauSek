@@ -2,6 +2,6 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\ExcretionMechanism;
+namespace Endermanbugzjfc\BaauSek;
 
 class PlayerPoopStoreEvent {}

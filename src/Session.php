@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\ExcretionMechanism;
+namespace Endermanbugzjfc\BaauSek;
 
 use SOFe\AwaitGenerator\f2c;
 use SOFe\AwaitStd\AwaitStd;

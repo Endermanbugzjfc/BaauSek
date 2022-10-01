@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Endermanbugzjfc\ExcretionMechanism;
+namespace Endermanbugzjfc\BaauSek;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;

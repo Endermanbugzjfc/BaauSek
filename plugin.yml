@@ -1,0 +1,5 @@
+name: BaauSek
+author: Endermanbugzjfc
+version: 0.1.0
+api: 4.0.0
+main: Endermanbugzjfc\BaauSek\Loader
